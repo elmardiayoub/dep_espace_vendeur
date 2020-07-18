@@ -1,0 +1,422 @@
+
+{
+  "header": {
+    "reportVersion": 2,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200605.005823.10232.0.001.json",
+    "dumpEventTime": "2020-06-05T00:58:23Z",
+    "dumpEventTimeStamp": "1591315103691",
+    "processId": 10232,
+    "threadId": null,
+    "cwd": "C:\\Users\\Lenovo T450\\Desktop\\Projet Cadre\\Template\\ngx-admin",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Lenovo T450\\AppData\\Roaming\\npm\\\\node_modules\\@angular\\cli\\bin\\ng",
+      "serve"
+    ],
+    "nodejsVersion": "v12.16.3",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.3",
+      "v8": "7.8.279.23-node.35",
+      "uv": "1.34.2",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.16.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1g",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.3/node-v12.16.3.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.3/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+        "speed": 2295,
+        "user": 3048234,
+        "nice": 0,
+        "sys": 2381796,
+        "idle": 46710390,
+        "irq": 527281
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+        "speed": 2295,
+        "user": 2457765,
+        "nice": 0,
+        "sys": 1082046,
+        "idle": 48600390,
+        "irq": 92953
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+        "speed": 2295,
+        "user": 3294312,
+        "nice": 0,
+        "sys": 1557500,
+        "idle": 47288390,
+        "irq": 27703
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+        "speed": 2295,
+        "user": 2631656,
+        "nice": 0,
+        "sys": 1002718,
+        "idle": 48505828,
+        "irq": 18265
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "fe80::6dfa:c106:c94e:afd5",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 14
+      },
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "192.168.142.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "fe80::9598:7196:a0b0:6c40",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "192.168.56.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "18:5e:0f:73:8c:41",
+        "address": "fe80::a049:41ed:6bb3:318b",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 8
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "18:5e:0f:73:8c:41",
+        "address": "192.168.1.110",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-EAA4QES"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff62ff62449",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff62ff669a9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff62ff65828",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff63009d8c2",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6308b9bbe",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6308a1c91",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff63076e1ec",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff63074a103",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff63074840b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6307739ad",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6307756e4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff63076b743",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff630769db4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff63078afbd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6304f16ff",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff630d06c4d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000027f812f271d",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 1056796672,
+    "totalCommittedMemory": 1056796672,
+    "usedMemory": 992257576,
+    "availableMemory": 1176395960,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759296,
+        "used": 2432,
+        "available": 16756864
+      },
+      "old_space": {
+        "memorySize": 648425472,
+        "committedMemory": 648425472,
+        "capacity": 639431112,
+        "used": 639404944,
+        "available": 26168
+      },
+      "code_space": {
+        "memorySize": 6197248,
+        "committedMemory": 6197248,
+        "capacity": 4336896,
+        "used": 4336896,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 22024192,
+        "committedMemory": 22024192,
+        "capacity": 3750800,
+        "used": 3750800,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 345710592,
+        "committedMemory": 345710592,
+        "capacity": 344185408,
+        "used": 344185408,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 544288,
+        "used": 544288,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759296,
+        "used": 0,
+        "available": 16759296
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 172.281,
+    "kernelCpuSeconds": 19.328,
+    "cpuConsumptionPercent": 165.18,
+    "maxRss": 1226309632,
+    "pageFaults": {
+      "IORequired": 697209,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 12748,
+      "writes": 5
+    }
+  },
+  "libuv": [
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\Lenovo T450\\Desktop\\Projet Cadre\\Template\\ngx-admin",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Lenovo T450\\AppData\\Roaming",
+    "BROWSERSLIST_IGNORE_OLD_DATA": "1",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-EAA4QES",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\Lenovo T450\\AppData\\Roaming\\npm\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "ESET_OPTIONS": "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Lenovo T450",
+    "INTEL_DEV_REDIST": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\",
+    "JDK_HOME": "C:\\Program Files\\Java\\jdk1.8.0_221",
+    "LOCALAPPDATA": "C:\\Users\\Lenovo T450\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-EAA4QES",
+    "M2_HOME": "C:\\Program Files\\apache-maven-3.6.3-bin\\apache-maven-3.6.3",
+    "MAVEN_HOME": "C:\\Program Files\\apache-maven-3.6.3-bin\\apache-maven-3.6.3",
+    "MIC_LD_LIBRARY_PATH": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\Lenovo T450\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files (x86)\\Cuminas\\Document Express DjVu Plug-in\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\GTK\\bin;C:\\libxml2\\bin;C:\\iconv\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files (x86)\\DevDesktop\\drush_9;C:\\Program Files\\SourceGear\\Common\\DiffMerge\\;C:\\Program Files\\Java\\jdk-10.0.2\\bin\\;C:\\Program Files\\Java\\jdk1.8.0_221\\bin;C:\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\;C:\\Program Files (x86)\\Eclipse\\Sumo\\tools\\;C:\\Program Files\\nodejs\\;C:\\Program Files\\apache-maven-3.6.3-bin\\apache-maven-3.6.3\\bin;C:\\Users\\Lenovo T450\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\Lenovo T450\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\Users\\Lenovo T450\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo T450\\AppData\\Local\\Pandoc\\;C:\\Users\\Lenovo T450\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo T450\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo T450\\.dotnet\\tools;C:\\Users\\Lenovo T450\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 61 Stepping 4, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3d04",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PYTHONPATH": "C:\\Program Files (x86)\\Eclipse\\Sumo\\tools\\",
+    "SUMO_HOME": "C:\\Program Files (x86)\\Eclipse\\Sumo\\",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Lenovo T450\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\Lenovo T450\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-EAA4QES",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-EAA4QES",
+    "USERNAME": "Lenovo T450",
+    "USERPROFILE": "C:\\Users\\Lenovo T450",
+    "VS140COMNTOOLS": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\",
+    "WEBPACK_DEV_SERVER": "true",
+    "windir": "C:\\WINDOWS",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "\\\\?\\C:\\Users\\Lenovo T450\\Desktop\\Projet Cadre\\Template\\ngx-admin\\node_modules\\node-sass\\vendor\\win32-x64-72\\binding.node",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+  ]
+}

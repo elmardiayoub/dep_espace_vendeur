@@ -1,0 +1,61 @@
+<h1>
+    Produit</h1>
+
+<div class="container">
+
+    <form (ngSubmit)="!productForm.invalid && saveProduct()" #productForm="ngForm">
+
+        <fieldset class="form-group">
+            <label>Catégorie :</label>
+            <!-- <input type="text" [(ngModel)]="product.category_id" class="form-control" name="category_id" required="required"> -->
+            <select name="category_id" class="form-control" [(ngModel)]="product.category_id">
+    <option *ngFor="let category of categories" [ngValue]="category.id">
+      {{category.categoryName}}
+    </option>
+  </select>
+        </fieldset>
+
+        <fieldset class="form-group">
+            <label>Nom du Produit :</label>
+            <input type="text" [(ngModel)]="product.prodNom" class="form-control" name="prodNom" required="required">
+        </fieldset>
+
+        <fieldset class="form-group">
+            <label>Déscription du Produit :</label>
+            <!-- <input type="text" [(ngModel)]="product.prodDescription" class="form-control" name="prodDescription" required="required"> -->
+            <textarea name="prodDescription" [(ngModel)]="product.prodDescription" class="form-control" cols="30" rows="4" required="required"></textarea>
+        </fieldset>
+
+        <fieldset class="form-group">
+            <label>Prix :</label>
+            <input type="number" [(ngModel)]="product.prodPrix" class="form-control" name="prodPrix" required="required">
+        </fieldset>
+
+        <fieldset class="form-group">
+            <label>Stock :</label>
+            <input type="number" [(ngModel)]="product.prodStock" class="form-control" name="prodStock" required="required">
+        </fieldset>
+
+
+
+        <!-- <fieldset class="form-group" *ngIf="!viewed">
+      <img style="height: 100px; width: 100px;" src="{{value}}">
+    </fieldset> -->
+
+        <!-- <fieldset class="form-group" >
+      <img style="height: 100px; width: 100px;" [src]="getValue()">
+    </fieldset> -->
+
+        <!-- <input type="hidden" value="{{changeValue()}}" /> -->
+
+        <fieldset class="form-group">
+            <label class="btn btn-default">
+        <input type="file" (change)="selectFile($event)" />
+      </label>
+        </fieldset>
+
+
+        <button type="submit" class="btn btn-success">Enregistrer</button>
+    </form>
+
+</div>

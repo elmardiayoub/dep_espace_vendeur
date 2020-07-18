@@ -1,0 +1,39 @@
+<h1> Mes produits</h1>
+
+<div class="container">
+    <div class="alert alert-success" *ngIf='message'>{{message}}</div>
+    <!-- <table class="table">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Image</th>
+      <th>Nom du Produit</th>
+      <th>Déscription</th>
+      <th>Prix</th>
+      <th>Stock</th>
+      <th>Catégorie</th>
+      <th>Update</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <td>{{product?.id}}</td>
+      <td>
+        <img style="height: 100px; width: 100px;" [src]="getLinkPicture(product?.imgFileName)">
+      </td>
+      <td>{{product?.prodNom}}</td>
+      <td>{{product?.prodDescription}}</td>
+      <td>{{product?.prodPrix}}</td>
+      <td>{{product?.prodStock}}</td>
+      <td>{{getCategoryName(product?.category_id)}}</td>
+      <td><button (click)="updateProduct(product?.id)" class="btn btn-success">Update</button></td>
+      <td><button (click)="deleteProduct(product?.id)" class="btn btn-warning">Delete</button></td>
+    </tr>
+  </tbody>
+</table> -->
+
+
+    <ngx-products-table></ngx-products-table>
+
+    <!-- </div> -->
